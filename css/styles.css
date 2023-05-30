@@ -4,13 +4,14 @@
 }
 
 body {
-	margin: 90px 0px 90px 0px;
 	background-color: pink;
 }
 
-.row {
+.boardRow {
 	display: flex;
-	justify-content: center;
+	align-items: center;
+	float: right;
+	clear: right;
 }
 
 .square {
@@ -19,19 +20,13 @@ body {
 	width: 50px;
 }
 
-.row:nth-child(odd) .square:nth-child(odd) {
-	background-color: white;
-}
-
-.row:nth-child(odd) .square:nth-child(even) {
-	background-color: black;
-}
-
-.row:nth-child(even) .square:nth-child(odd) {
+.one {
 	background-color: black;
 
 }
 
-.row:nth-child(even) .square:nth-child(even) {
+.two {
 	background-color: white;
 }
+
+

@@ -1,2 +1,2 @@
-# chessboard
-How to make a chessboard (different methods in each branch)
+# Chessboard-using-float-clear
+This a chess board using float and clear (html & css).
