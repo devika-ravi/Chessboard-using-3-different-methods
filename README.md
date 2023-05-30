@@ -1,2 +1,2 @@
-# chessboard
-How to make a chessboard (different methods in each branch)
+# Chessboard-using-bootstrap
+A chess board html and css page using bootstrap.

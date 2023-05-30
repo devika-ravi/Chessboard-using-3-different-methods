@@ -4,34 +4,31 @@
 }
 
 body {
-	margin: 90px 0px 90px 0px;
 	background-color: pink;
 }
 
-.row {
-	display: flex;
-	justify-content: center;
+.container-fluid {
+	margin-top: 90px;
 }
-
 .square {
 	border: 1px solid black;
 	height: 50px;
 	width: 50px;
 }
 
-.row:nth-child(odd) .square:nth-child(odd) {
+.rowSquare:nth-child(odd) .square:nth-child(odd) {
 	background-color: white;
 }
 
-.row:nth-child(odd) .square:nth-child(even) {
+.rowSquare:nth-child(odd) .square:nth-child(even) {
 	background-color: black;
 }
 
-.row:nth-child(even) .square:nth-child(odd) {
+.rowSquare:nth-child(even) .square:nth-child(odd) {
 	background-color: black;
 
 }
 
-.row:nth-child(even) .square:nth-child(even) {
+.rowSquare:nth-child(even) .square:nth-child(even) {
 	background-color: white;
 }
